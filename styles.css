@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-content {
+    padding: 16px;
+}
+
+.url-block, .url-block span, #inp_url {
+    display: flex;
+}
+
+
+.url-block span {
+    flex: 0;
+    margin-right: 8px;
+}
+
+#inp_url {
+    flex: 1;
+}
+
+.generate-btn-block {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#output_code {
+    width: 100%;
+    resize: vertical;
+    height: 200px;
+}
+
+.attribution {
+    text-align: center;
+}
